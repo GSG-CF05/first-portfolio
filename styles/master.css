@@ -2,6 +2,8 @@
   --dark-blue: #001ebb;
   --white: #fff;
   --black: #191b1b;
+  --dark-gray: rgb(160, 160, 160);
+  --dead-blue: #121520;
 }
 
 * {
@@ -92,7 +94,7 @@ body {
 }
 
 .landing .introduction span {
-  color: var(--dark-blue);
+  color: #00f;
 }
 
 .landing .introduction p {
@@ -116,4 +118,71 @@ body {
   border: 2px solid var(--dark-blue);
   color: var(--white);
   background-image: none;
+}
+
+.about {
+  background-color: var(--dead-blue);
+  padding: 4.6rem;
+}
+
+.about .container {
+  width: 80%;
+  margin: auto;
+}
+
+.about .container h2 {
+  margin: 0;
+  font-size: 2.6rem;
+  text-align: center;
+  padding-bottom: 32px;
+  position: relative;
+  color: var(--white);
+}
+
+.about .container h2 span {
+  color: #00f;
+}
+
+.about .container h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  left: 24px;
+  width: 40%;
+  height: 3px;
+  background-color: var(--dark-gray);
+}
+
+.about .container h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  right: 24px;
+  width: 40%;
+  height: 3px;
+  background-color: var(--dark-gray);
+}
+
+.about .container .me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .container .me p {
+  font-size: 1.5rem;
+  line-height: 1.48;
+  width: 680px;
+  text-align: justify;
+  color: var(--dark-gray);
+}
+
+.about .container .me p span {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.about .container .me img {
+  border-radius: 50% 50%;
 }
