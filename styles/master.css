@@ -1,6 +1,7 @@
 :root {
   --dark-blue: #001ebbf0;
   --white: #fff;
+  --black: #000;
 }
 
 * {
@@ -42,6 +43,23 @@ body {
   color: var(--white);
   font-weight: 500;
   font-size: 1.24rem;
+}
+
+.header .nav .links .link::after {
+  content: "";
+  position: relative;
+  display: block;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--black);
+  transition: 280ms all;
+  visibility: hidden;
+}
+
+.header .nav .links .link:hover::after {
+  visibility: visible;
 }
 
 .header .nav .links .link .fas {
