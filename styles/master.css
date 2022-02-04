@@ -1,7 +1,56 @@
+:root {
+  --dark-blue: #001ebbf0;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 100000px;
+}
+
+.header {
+  background-color: var(--dark-blue);
+  padding: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 10px 10px 1.2px rgba(0, 0, 0, 0.340);
+}
+
+.header .nav {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .links {
+  list-style-type: none;
+  width: 44%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav .links .link {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.24rem;
+}
+
+.header .nav .links .link .fas {
+  margin-right: 2px;
+}
+
+.header .nav .logo h2 {
+  margin: 0;
+  text-transform: uppercase;
+  word-spacing: 8px;
+  color: var(--white);
 }
