@@ -1,7 +1,7 @@
 :root {
-  --dark-blue: #001ebbf0;
+  --dark-blue: #001ebb;
   --white: #fff;
-  --black: #000;
+  --black: #191b1b;
 }
 
 * {
@@ -70,5 +70,48 @@ body {
   margin: 0;
   text-transform: uppercase;
   word-spacing: 8px;
+  color: var(--white);
+}
+
+.landing {
+  background-color: var(--black);
+  color: var(--white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .introduction {
+  text-align: center;
+}
+
+.landing .introduction h1{
+  font-size: 3rem;
+}
+
+.landing .introduction span {
+  color: var(--dark-blue);
+}
+
+.landing .introduction p {
+  font-size: 1.5rem;
+  margin-bottom: 4.2rem;
+}
+
+.landing .introduction button {
+  padding: 15px 44px;
+  background-color: var(--dark-blue);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  border: 2px solid var(--dark-blue);
+}
+
+.landing .introduction button:hover {
+  background-color: var(--black);
+  border: 2px solid var(--dark-blue);
   color: var(--white);
 }
