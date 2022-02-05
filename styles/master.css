@@ -463,3 +463,24 @@ body {
   margin-right: 2rem;
 }
 
+.footer {
+  background-color: var(--dead-orange);
+  color: var(--dark-gray);
+  padding: 28px 14px;
+  font-size: 1.32rem;
+  text-align: center;
+  border-top: 0.02px solid var(--dark-gray);
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer p span {
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.footer p i{
+  color: #f00;
+}
