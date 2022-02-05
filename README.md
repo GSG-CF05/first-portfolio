@@ -2,7 +2,7 @@
 
 ## Brief summary of the project:
 
-- This is my first project for Gaza Sky Geeks fifth chourt coding foundatoins course.
+- This is my first project for Gaza Sky Geeks fifth cohort coding foundatoins course.
 
 ## Team Memebers:
 - [azzsal](https://github.com/azzsal)
