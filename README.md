@@ -19,3 +19,7 @@
 - HTML5 semantic elements for layout.
 - CSS3 Felxbox layout.
 - Git (feature) branch-based workflow.
+
+## Where you can visit the page:
+
+https://gsg-cf05.github.io/first-portfolio/
