@@ -18,7 +18,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  height: 100000px;
+  /* height: 100000px; */
 }
 
 .header {
@@ -383,3 +383,83 @@ body {
   background-image: url("../images/calculator.png");
   background-size: cover;
 }
+
+.contact {
+  background-color: var(--black);
+  padding: 4.6rem;
+}
+
+.contact .container {
+  width: 80%;
+  margin: auto;
+}
+
+.contact .container h2 {
+  margin: 0;
+  font-size: 2.6rem;
+  text-align: center;
+  padding-bottom: 48px;
+  position: relative;
+  color: var(--white);
+}
+
+.contact .container h2 span {
+  color: var(--orange);
+}
+
+.contact .container h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 65px;
+  left: 0px;
+  width: 40%;
+  height: 3px;
+  background-color: var(--dark-gray);
+}
+
+.contact .container h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 65px;
+  right: 0px;
+  width: 40%;
+  height: 3px;
+  background-color: var(--dark-gray);
+}
+
+.contact .container .info {
+  text-align: center;
+}
+
+.contact .container .info p {
+  color: var(--dark-gray);
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.contact .container .info a {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact .container .info a:hover,
+.contact .container .info .social-media i:hover {
+  color: var(--orange);
+}
+
+.contact .container .info .social-media {
+  color: var(--white);
+  font-size: 1.8rem;
+  margin-top: 42px;
+}
+
+.contact .container .info .social-media i {
+  margin-right: 2rem;
+}
+
